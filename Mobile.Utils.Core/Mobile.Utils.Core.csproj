@@ -34,6 +34,12 @@
   <ItemGroup>
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaseSetupHandler.cs" />
+    <Compile Include="Comms\EmailProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Comms\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
 </Project>

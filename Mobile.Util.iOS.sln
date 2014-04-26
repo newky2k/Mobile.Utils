@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.Android", "Mob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.iOS", "Mobile.Utils.iOS\Mobile.Utils.iOS.csproj", "{14625DDD-CCDC-4543-9FFE-96579E578D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.Extensions", "Mobile.Utils.Extensions\Mobile.Utils.Extensions.csproj", "{E3FE7D32-B6C1-4037-B820-FC626292E8C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{760361F6-9982-46B5-B273-B8572DBE3473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760361F6-9982-46B5-B273-B8572DBE3473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760361F6-9982-46B5-B273-B8572DBE3473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FE7D32-B6C1-4037-B820-FC626292E8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FE7D32-B6C1-4037-B820-FC626292E8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FE7D32-B6C1-4037-B820-FC626292E8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FE7D32-B6C1-4037-B820-FC626292E8C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Mobile.Utils.Core\Mobile.Utils.Core.csproj
